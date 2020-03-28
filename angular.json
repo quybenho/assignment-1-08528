@@ -24,7 +24,10 @@
             ],
             "styles": [
               "src/styles.css",
-              "src/css/index.css"
+              "src/css/index.css",
+              "src/css/main.css",
+              "src/css/util.css",
+              "src/css/css.css"
             ],
             "scripts": []
           },
