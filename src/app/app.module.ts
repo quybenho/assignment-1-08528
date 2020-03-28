@@ -7,9 +7,10 @@ import { HelloComponent } from './hello.component';
 import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
+import { ProductListComponent } from './product-list/product-list.component';
 @NgModule({
   imports:      [ BrowserModule, FormsModule, HttpClientModule, AppRoutingModule ],
-  declarations: [ AppComponent, HelloComponent, HomeComponent ],
+  declarations: [ AppComponent, HelloComponent, HomeComponent, ProductListComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
